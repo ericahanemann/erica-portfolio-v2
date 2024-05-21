@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import styles from "../page.module.css";
 
-export default function Project() {
+export default function Contact() {
   return (
     <main className={styles.main}>
-      <div>project page</div>
+      <div>contact page</div>
       <Link href="/">home page</Link>
     </main>
   );
