@@ -8,8 +8,9 @@
 }
 
 .logo {
-    height: 85%;
+    height: 90%;
     width: auto;
+    overflow-y: hidden;
 }
 
 .logoImg {

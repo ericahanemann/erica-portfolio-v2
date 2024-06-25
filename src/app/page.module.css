@@ -1,3 +1,40 @@
 .main {
   background-color: var(--primary-color);
+  width: 100vw;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  position: relative;
+  width: 80%;
+  padding-right: 2.5rem;
+  overflow-y: hidden;
+  font-family: "Staatliches", sans-serif;
+  font-size: 23rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 18rem;
+  letter-spacing: -1.2rem;
+  text-align: right;
+  background: linear-gradient(45deg, #000 20%, #3b3b3b 45%, #000 50%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 1500% auto;
+  text-shadow: -4px 4px 10px #00000015;
+  animation: shine 8s infinite ease-in-out;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: 100%;
+  }
+  100% {
+    background-position-x: 0%;
+  }
 }
